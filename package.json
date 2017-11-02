@@ -24,7 +24,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "date-fns": "^1.27.2",
-    "dom-helpers": "https://github.com/MealsUnite/dom-helpers.git",
+    "dom-helpers": "git://github.com/MealsUnite/dom-helpers.git",
     "prop-types": "^15.5.7",
     "react-tiny-virtual-list": "^2.0.0",
     "react-transition-group": "^1.1.3",
