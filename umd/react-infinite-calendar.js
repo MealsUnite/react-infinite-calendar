@@ -11,7 +11,7 @@
 		exports["InfiniteCalendar"] = factory(require("react"), require("react-dom"));
 	else
 		root["InfiniteCalendar"] = factory(root["React"], root["ReactDOM"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_84__) {
+})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_89__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -77,7 +77,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 85);
+/******/ 	return __webpack_require__(__webpack_require__.s = 90);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -419,7 +419,8 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_recompose_withPropsOnChange__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_recompose_withPropsOnChange___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_recompose_withPropsOnChange__);
-throw new Error("Cannot find module \"dom-helpers/util/scrollbarSize\"");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_dom_helpers_util_scrollbarSize__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_dom_helpers_util_scrollbarSize___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_dom_helpers_util_scrollbarSize__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_date_fns_get_days_in_month__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_date_fns_get_days_in_month___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_date_fns_get_days_in_month__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_date_fns_get_day__ = __webpack_require__(18);
@@ -434,7 +435,7 @@ throw new Error("Cannot find module \"dom-helpers/util/scrollbarSize\"");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_date_fns_end_of_day___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_date_fns_end_of_day__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_date_fns_start_of_day__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_date_fns_start_of_day___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_date_fns_start_of_day__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__animate__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__animate__ = __webpack_require__(68);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_9__animate__["a"]; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return keyCodes; });
 /* harmony export (immutable) */ __webpack_exports__["f"] = getMonth;
@@ -586,7 +587,7 @@ var ScrollSpeed = function () {
   return ScrollSpeed;
 }();
 
-var scrollbarSize = __WEBPACK_IMPORTED_MODULE_1_dom_helpers_util_scrollbarSize___default()();
+var scrollbarSize = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_dom_helpers_util_scrollbarSize__["default"])();
 
 function emptyFn() {
   /* no-op */
@@ -686,7 +687,7 @@ if (true) {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(69)(isValidElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(74)(isValidElement, throwOnDirectAccess);
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
@@ -1098,7 +1099,7 @@ var createHelper = function createHelper(func, helperName) {
   if ("development" !== 'production' && setDisplayName) {
     var _ret = function () {
       /* eslint-disable global-require */
-      var wrapDisplayName = __webpack_require__(82).default;
+      var wrapDisplayName = __webpack_require__(87).default;
       /* eslint-enable global-require */
 
       if (noArgs) {
@@ -1139,7 +1140,7 @@ exports.default = createHelper;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_recompose_defaultProps__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_recompose_defaultProps__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_recompose_defaultProps___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_recompose_defaultProps__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
@@ -1148,18 +1149,18 @@ exports.default = createHelper;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils_defaultDisplayOptions__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils_defaultDisplayOptions__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils_defaultDisplayOptions___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__utils_defaultDisplayOptions__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__utils_defaultLocale__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__utils_defaultLocale__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__utils_defaultLocale___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__utils_defaultLocale__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_defaultTheme__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_defaultTheme__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_defaultTheme___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__utils_defaultTheme__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Today__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Header__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__MonthList__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Weekdays__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__Years__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__Day__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Today__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Header__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__MonthList__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Weekdays__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__Years__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__Day__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_date_fns_parse__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_date_fns_parse___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_date_fns_parse__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_date_fns_format__ = __webpack_require__(5);
@@ -1697,11 +1698,11 @@ var Calendar = (_temp = _class = function (_Component) {
 
 exports.__esModule = true;
 
-var _createEagerElementUtil = __webpack_require__(79);
+var _createEagerElementUtil = __webpack_require__(84);
 
 var _createEagerElementUtil2 = _interopRequireDefault(_createEagerElementUtil);
 
-var _isReferentiallyTransparentFunctionComponent = __webpack_require__(76);
+var _isReferentiallyTransparentFunctionComponent = __webpack_require__(81);
 
 var _isReferentiallyTransparentFunctionComponent2 = _interopRequireDefault(_isReferentiallyTransparentFunctionComponent);
 
@@ -1824,7 +1825,7 @@ var _createHelper = __webpack_require__(6);
 
 var _createHelper2 = _interopRequireDefault(_createHelper);
 
-var _mapProps = __webpack_require__(77);
+var _mapProps = __webpack_require__(82);
 
 var _mapProps2 = _interopRequireDefault(_mapProps);
 
@@ -1851,11 +1852,11 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _react = __webpack_require__(1);
 
-var _pick = __webpack_require__(80);
+var _pick = __webpack_require__(85);
 
 var _pick2 = _interopRequireDefault(_pick);
 
-var _shallowEqual = __webpack_require__(78);
+var _shallowEqual = __webpack_require__(83);
 
 var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 
@@ -3106,11 +3107,11 @@ var _propTypes = __webpack_require__(3);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _TransitionGroup = __webpack_require__(71);
+var _TransitionGroup = __webpack_require__(76);
 
 var _TransitionGroup2 = _interopRequireDefault(_TransitionGroup);
 
-var _CSSTransitionGroupChild = __webpack_require__(70);
+var _CSSTransitionGroupChild = __webpack_require__(75);
 
 var _CSSTransitionGroupChild2 = _interopRequireDefault(_CSSTransitionGroupChild);
 
@@ -3254,12 +3255,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Calendar_withDateSelection__ = __webpack_require__(24);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Calendar", function() { return __WEBPACK_IMPORTED_MODULE_1__Calendar__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withDateSelection", function() { return __WEBPACK_IMPORTED_MODULE_2__Calendar_withDateSelection__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Calendar_withKeyboardSupport__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Calendar_withKeyboardSupport__ = __webpack_require__(55);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withKeyboardSupport", function() { return __WEBPACK_IMPORTED_MODULE_3__Calendar_withKeyboardSupport__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Calendar_withMultipleDates__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Calendar_withMultipleDates__ = __webpack_require__(56);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withMultipleDates", function() { return __WEBPACK_IMPORTED_MODULE_4__Calendar_withMultipleDates__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "defaultMultipleDateInterpolation", function() { return __WEBPACK_IMPORTED_MODULE_4__Calendar_withMultipleDates__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Calendar_withRange__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Calendar_withRange__ = __webpack_require__(57);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRange", function() { return __WEBPACK_IMPORTED_MODULE_5__Calendar_withRange__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "EVENT_TYPE", function() { return __WEBPACK_IMPORTED_MODULE_5__Calendar_withRange__["b"]; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return DefaultCalendar; });
@@ -4212,6 +4213,36 @@ module.exports = shallowEqual;
 
 /***/ }),
 /* 50 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: ReferenceError: Unknown plugin \"css-modules-transform\" specified in \"base\" at 3, attempted to resolve relative to \"/Users/taras/projects/dom-helpers/class\"\n    at /Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:180:17\n    at Array.map (native)\n    at Function.normalisePlugins (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)\n    at OptionManager.mergeOptions (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)\n    at OptionManager.init (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)\n    at File.initOptions (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/index.js:212:65)\n    at new File (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/index.js:135:24)\n    at Pipeline.transform (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/pipeline.js:46:16)\n    at transpile (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/index.js:38:20)\n    at /Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/fs-cache.js:78:18\n    at ReadFileContext.callback (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/fs-cache.js:14:14)\n    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:366:13)");
+
+/***/ }),
+/* 51 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: ReferenceError: Unknown plugin \"css-modules-transform\" specified in \"base\" at 3, attempted to resolve relative to \"/Users/taras/projects/dom-helpers/class\"\n    at /Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:180:17\n    at Array.map (native)\n    at Function.normalisePlugins (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)\n    at OptionManager.mergeOptions (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)\n    at OptionManager.init (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)\n    at File.initOptions (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/index.js:212:65)\n    at new File (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/index.js:135:24)\n    at Pipeline.transform (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/pipeline.js:46:16)\n    at transpile (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/index.js:38:20)\n    at /Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/fs-cache.js:78:18\n    at ReadFileContext.callback (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/fs-cache.js:14:14)\n    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:366:13)");
+
+/***/ }),
+/* 52 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: ReferenceError: Unknown plugin \"css-modules-transform\" specified in \"base\" at 3, attempted to resolve relative to \"/Users/taras/projects/dom-helpers/transition\"\n    at /Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:180:17\n    at Array.map (native)\n    at Function.normalisePlugins (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)\n    at OptionManager.mergeOptions (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)\n    at OptionManager.init (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)\n    at File.initOptions (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/index.js:212:65)\n    at new File (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/index.js:135:24)\n    at Pipeline.transform (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/pipeline.js:46:16)\n    at transpile (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/index.js:38:20)\n    at /Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/fs-cache.js:78:18\n    at ReadFileContext.callback (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/fs-cache.js:14:14)\n    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:366:13)");
+
+/***/ }),
+/* 53 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: ReferenceError: Unknown plugin \"css-modules-transform\" specified in \"base\" at 3, attempted to resolve relative to \"/Users/taras/projects/dom-helpers/util\"\n    at /Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:180:17\n    at Array.map (native)\n    at Function.normalisePlugins (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)\n    at OptionManager.mergeOptions (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)\n    at OptionManager.init (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)\n    at File.initOptions (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/index.js:212:65)\n    at new File (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/index.js:135:24)\n    at Pipeline.transform (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/pipeline.js:46:16)\n    at transpile (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/index.js:38:20)\n    at /Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/fs-cache.js:78:18\n    at ReadFileContext.callback (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/fs-cache.js:14:14)\n    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:366:13)");
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: ReferenceError: Unknown plugin \"css-modules-transform\" specified in \"base\" at 3, attempted to resolve relative to \"/Users/taras/projects/dom-helpers/util\"\n    at /Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:180:17\n    at Array.map (native)\n    at Function.normalisePlugins (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)\n    at OptionManager.mergeOptions (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)\n    at OptionManager.init (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)\n    at File.initOptions (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/index.js:212:65)\n    at new File (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/file/index.js:135:24)\n    at Pipeline.transform (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/node_modules/babel-core/lib/transformation/pipeline.js:46:16)\n    at transpile (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/index.js:38:20)\n    at /Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/fs-cache.js:78:18\n    at ReadFileContext.callback (/Users/taras/projects/react-infinite-calendar/node_modules/nwb/node_modules/babel-loader/lib/fs-cache.js:14:14)\n    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:366:13)");
+
+/***/ }),
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4219,7 +4250,7 @@ module.exports = shallowEqual;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_recompose_withState___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_recompose_withState__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_recompose_withProps__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_recompose_withProps___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_recompose_withProps__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_recompose_withHandlers__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_recompose_withHandlers__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_recompose_withHandlers___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_recompose_withHandlers__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_recompose_compose__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_recompose_compose___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_recompose_compose__);
@@ -4341,7 +4372,7 @@ function getInitialDate(_ref3) {
 }
 
 /***/ }),
-/* 51 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4355,7 +4386,7 @@ function getInitialDate(_ref3) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_recompose_compose___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_recompose_compose__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4____ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Header_withMultipleDates__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Header_withMultipleDates__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_date_fns_format__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_date_fns_format___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_date_fns_format__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_date_fns_parse__ = __webpack_require__(0);
@@ -4463,7 +4494,7 @@ function defaultMultipleDateInterpolation(date, selected) {
 }
 
 /***/ }),
-/* 52 */
+/* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4481,7 +4512,7 @@ function defaultMultipleDateInterpolation(date, selected) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__utils__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_date_fns_is_before__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_date_fns_is_before___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_date_fns_is_before__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Header_withRange__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Header_withRange__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_date_fns_format__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_date_fns_format___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_date_fns_format__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_date_fns_parse__ = __webpack_require__(0);
@@ -4675,7 +4706,7 @@ if (typeof window !== 'undefined') {
 }
 
 /***/ }),
-/* 53 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4872,7 +4903,7 @@ var Day = function (_PureComponent) {
 
 
 /***/ }),
-/* 54 */
+/* 59 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5061,7 +5092,7 @@ var Slider = function (_PureComponent) {
 
 
 /***/ }),
-/* 55 */
+/* 60 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5165,7 +5196,7 @@ var Header = (_temp = _class = function (_PureComponent) {
 
 
 /***/ }),
-/* 56 */
+/* 61 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5173,7 +5204,7 @@ var Header = (_temp = _class = function (_PureComponent) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__defaultSelectionRenderer__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Slider__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Slider__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_date_fns_parse__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_date_fns_parse___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_date_fns_parse__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_date_fns_format__ = __webpack_require__(5);
@@ -5238,7 +5269,7 @@ function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in ob
 });
 
 /***/ }),
-/* 57 */
+/* 62 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5297,7 +5328,7 @@ var styles = {
 });
 
 /***/ }),
-/* 58 */
+/* 63 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5505,7 +5536,7 @@ var Month = function (_PureComponent) {
 
 
 /***/ }),
-/* 59 */
+/* 64 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5521,7 +5552,7 @@ var Month = function (_PureComponent) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_date_fns_parse___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_date_fns_parse__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_date_fns_start_of_month__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_date_fns_start_of_month___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_date_fns_start_of_month__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Month__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Month__ = __webpack_require__(63);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MonthList; });
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -5779,7 +5810,7 @@ var MonthList = (_temp2 = _class = function (_Component) {
 
 
 /***/ }),
-/* 60 */
+/* 65 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5901,7 +5932,7 @@ var Today = (_temp2 = _class = function (_PureComponent) {
 
 
 /***/ }),
-/* 61 */
+/* 66 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5986,7 +6017,7 @@ var Weekdays = (_temp = _class = function (_PureComponent) {
 
 
 /***/ }),
-/* 62 */
+/* 67 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6262,7 +6293,7 @@ var Years = (_temp = _class = function (_Component) {
 
 
 /***/ }),
-/* 63 */
+/* 68 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6315,7 +6346,7 @@ function animate(_ref) {
 };
 
 /***/ }),
-/* 64 */
+/* 69 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6332,7 +6363,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 65 */
+/* 70 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6346,7 +6377,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 66 */
+/* 71 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6367,7 +6398,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 67 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6464,7 +6495,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 68 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6530,7 +6561,7 @@ module.exports = checkPropTypes;
 
 
 /***/ }),
-/* 69 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6546,10 +6577,10 @@ module.exports = checkPropTypes;
 var emptyFunction = __webpack_require__(21);
 var invariant = __webpack_require__(22);
 var warning = __webpack_require__(23);
-var assign = __webpack_require__(67);
+var assign = __webpack_require__(72);
 
 var ReactPropTypesSecret = __webpack_require__(25);
-var checkPropTypes = __webpack_require__(68);
+var checkPropTypes = __webpack_require__(73);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -7079,7 +7110,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 
 
 /***/ }),
-/* 70 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7089,19 +7120,19 @@ exports.__esModule = true;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _addClass = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"dom-helpers/class/addClass\""); e.code = 'MODULE_NOT_FOUND';; throw e; }()));
+var _addClass = __webpack_require__(50);
 
 var _addClass2 = _interopRequireDefault(_addClass);
 
-var _removeClass = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"dom-helpers/class/removeClass\""); e.code = 'MODULE_NOT_FOUND';; throw e; }()));
+var _removeClass = __webpack_require__(51);
 
 var _removeClass2 = _interopRequireDefault(_removeClass);
 
-var _requestAnimationFrame = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"dom-helpers/util/requestAnimationFrame\""); e.code = 'MODULE_NOT_FOUND';; throw e; }()));
+var _requestAnimationFrame = __webpack_require__(53);
 
 var _requestAnimationFrame2 = _interopRequireDefault(_requestAnimationFrame);
 
-var _properties = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"dom-helpers/transition/properties\""); e.code = 'MODULE_NOT_FOUND';; throw e; }()));
+var _properties = __webpack_require__(52);
 
 var _react = __webpack_require__(1);
 
@@ -7111,7 +7142,7 @@ var _propTypes = __webpack_require__(3);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _reactDom = __webpack_require__(84);
+var _reactDom = __webpack_require__(89);
 
 var _PropTypes = __webpack_require__(28);
 
@@ -7314,7 +7345,7 @@ exports.default = CSSTransitionGroupChild;
 module.exports = exports['default'];
 
 /***/ }),
-/* 71 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7336,11 +7367,11 @@ var _propTypes = __webpack_require__(3);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _warning = __webpack_require__(83);
+var _warning = __webpack_require__(88);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _ChildMapping = __webpack_require__(72);
+var _ChildMapping = __webpack_require__(77);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7589,7 +7620,7 @@ exports.default = TransitionGroup;
 module.exports = exports['default'];
 
 /***/ }),
-/* 72 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7686,7 +7717,7 @@ function mergeChildMappings(prev, next) {
 }
 
 /***/ }),
-/* 73 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7718,7 +7749,7 @@ var defaultProps = function defaultProps(props) {
 exports.default = (0, _createHelper2.default)(defaultProps, 'defaultProps');
 
 /***/ }),
-/* 74 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7740,7 +7771,7 @@ var getDisplayName = function getDisplayName(Component) {
 exports.default = getDisplayName;
 
 /***/ }),
-/* 75 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7754,7 +7785,7 @@ var isClassComponent = function isClassComponent(Component) {
 exports.default = isClassComponent;
 
 /***/ }),
-/* 76 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7762,7 +7793,7 @@ exports.default = isClassComponent;
 
 exports.__esModule = true;
 
-var _isClassComponent = __webpack_require__(75);
+var _isClassComponent = __webpack_require__(80);
 
 var _isClassComponent2 = _interopRequireDefault(_isClassComponent);
 
@@ -7775,7 +7806,7 @@ var isReferentiallyTransparentFunctionComponent = function isReferentiallyTransp
 exports.default = isReferentiallyTransparentFunctionComponent;
 
 /***/ }),
-/* 77 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7805,7 +7836,7 @@ var mapProps = function mapProps(propsMapper) {
 exports.default = (0, _createHelper2.default)(mapProps, 'mapProps');
 
 /***/ }),
-/* 78 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7822,7 +7853,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _shallowEqual2.default;
 
 /***/ }),
-/* 79 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7862,7 +7893,7 @@ var createEagerElementUtil = function createEagerElementUtil(hasKey, isReferenti
 exports.default = createEagerElementUtil;
 
 /***/ }),
-/* 80 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7883,7 +7914,7 @@ var pick = function pick(obj, keys) {
 exports.default = pick;
 
 /***/ }),
-/* 81 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7981,7 +8012,7 @@ var withHandlers = function withHandlers(handlers) {
 exports.default = (0, _createHelper2.default)(withHandlers, 'withHandlers');
 
 /***/ }),
-/* 82 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7989,7 +8020,7 @@ exports.default = (0, _createHelper2.default)(withHandlers, 'withHandlers');
 
 exports.__esModule = true;
 
-var _getDisplayName = __webpack_require__(74);
+var _getDisplayName = __webpack_require__(79);
 
 var _getDisplayName2 = _interopRequireDefault(_getDisplayName);
 
@@ -8002,7 +8033,7 @@ var wrapDisplayName = function wrapDisplayName(BaseComponent, hocName) {
 exports.default = wrapDisplayName;
 
 /***/ }),
-/* 83 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8069,13 +8100,13 @@ module.exports = warning;
 
 
 /***/ }),
-/* 84 */
+/* 89 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_84__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_89__;
 
 /***/ }),
-/* 85 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(29);
