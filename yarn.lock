@@ -2531,9 +2531,13 @@ dom-converter@~0.1:
   dependencies:
     utila "~0.3"
 
-dom-helpers@^3.2.0, "dom-helpers@git://github.com/MealsUnite/dom-helpers.git":
+dom-helpers@^3.2.0:
   version "3.2.1"
   resolved "git://github.com/MealsUnite/dom-helpers.git#fd4a81c0ac207c548d4f25d19e0a8c59fc41ee5d"
+
+"dom-helpers@git://github.com/MealsUnite/dom-helpers.git#8b257ac1bb43606f1a749252a266041163961a4d":
+  version "300.2.1"
+  resolved "git://github.com/MealsUnite/dom-helpers.git#8b257ac1bb43606f1a749252a266041163961a4d"
 
 dom-serialize@^2.2.0:
   version "2.2.1"
@@ -6438,7 +6442,7 @@ request-progress@^2.0.1, request-progress@~2.0.1:
   dependencies:
     throttleit "^1.0.0"
 
-request@2, request@^2.61.0, request@^2.74.0, request@^2.79.0, request@^2.81.0:
+request@2, request@^2.61.0, request@^2.74.0, request@^2.81.0:
   version "2.83.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.83.0.tgz#ca0b65da02ed62935887808e6f510381034e3356"
   dependencies:
